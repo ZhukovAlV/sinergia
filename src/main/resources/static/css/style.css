@@ -1,0 +1,100 @@
+body {
+  color: #525252;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  margin: 14px 0px 4px 0px;
+  padding: 0;
+  color: #01799e;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin-bottom: .4em;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h5 {
+  font-size: 1.1em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+/* form elements */
+
+fieldset {
+  border: 1px dotted #ccc;
+  margin: 0 0 1.4615em;
+  /*padding: 1.1em;*/
+}
+
+legend {
+  font-weight: bold;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+
+/***********BIO****************/
+.view-content .views-view-grid td:hover {
+   background: #0091bb;
+   color: #fff !important;
+}
+
+.view-content .views-view-grid td:hover a {
+    color: #fff !important;
+}
+
+.view-content td {
+    text-align: center;
+    vertical-align: top;
+}
+
+.item-characteristic {
+    font-size: 14px;
+}
+
+.item-characteristic .field-list {
+    font-weight: bold;
+}
+
+.item-characteristic p {
+    margin: 2px 0;
+}
+
+.item-characteristic .field-name-field-hero-main-picture,
+.item-characteristic .field-name-field-movies-picture,
+.item-characteristic .field-name-field-game-picture,
+.item-characteristic .field-name-field-comicshop-main-pic {
+    float: left;
+}
+
+.item-characteristic  img/*, .item-content img*/ {
+    -moz-box-shadow: 5px 5px 5px #888;
+    -webkit-box-shadow: 5px 10px 5px #888;
+    box-shadow: 5px 5px 5px #888;
+    margin-right: 15px;
+}
