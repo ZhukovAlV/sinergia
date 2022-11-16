@@ -1,0 +1,13 @@
+p {
+	color: blue;
+	font-size: 10px;
+	font-family: Georgia, serif;
+};
+
+#green {
+    color: #090;
+};
+
+.red {
+    color: #F00;
+}
