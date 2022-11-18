@@ -1,100 +1,165 @@
 body {
-  color: #525252;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+    position: absolute;
+}
+
+/* Desktop */
+.desktop {
+	position: relative;
+	width: 1440px;
+	height: 1024px;
+
+	background: #FFFFFF;
 }
 
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 400;
-  margin: 14px 0px 4px 0px;
-  padding: 0;
-  color: #01799e;
+/* Content */
+.content {
+	position: absolute;
+	width: 566px;
+	height: 838px;
+	left: 371px;
+	top: 75px;
+
+	background: rgba(65, 63, 63, 0.3);
+	border-radius: 50px;
 }
 
-h1 {
-  font-size: 1.8em;
-  margin-bottom: .4em;
-  margin-top: 0;
+.top_text {
+	/* Syberia */
+	position: absolute;
+	width: 516px;
+	height: 143px;
+	left: 44px;
+	top: 68px;
+
+	font-family: 'Cinzel Decorative';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 120px;
+	line-height: 162px;
+
+	color: #FFFFFF;
 }
 
-h2 {
-  font-size: 1.4em;
+.second_text {
+	/* Sokal */
+	position: absolute;
+	width: 314px;
+	height: 93px;
+	left: 246px;
+	top: 218px;
+
+	font-family: 'Sacramento';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 88px;
+
+	color: #FFFFFF;
 }
 
-h3 {
-  font-size: 1.3em;
+.third_text {
+	/* Automobots are not robots. They have a soul. */
+	position: absolute;
+	width: 501px;
+	height: 335px;
+	left: 31px;
+	top: 311px;
+
+	font-family: 'Reenie Beanie';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 100px;
+	line-height: 100px;
+
+	color: #FFFFFF;
 }
 
-h4 {
-  font-size: 1.2em;
+.stars {
+	position: absolute;
+	width: 197px;
+	height: 39.4px;
+	left: 49px;
+	top: 743px;
 }
 
-h5 {
-  font-size: 1.1em;
+.read_more {
+	position: absolute;
+	width: 260px;
+	height: 80px;
+	left: 272px;
+	top: 720px;
 }
 
-h6 {
-  font-size: 1em;
+.image_one {
+	position: absolute;
+	width: 369px;
+	height: 229.94px;
+	left: 1010px;
+	top: 116px;
+
+	border-radius: 65px;
 }
 
-/* form elements */
+.image_second {
+	position: absolute;
+	width: 369px;
+	height: 229.94px;
+	left: 1010px;
+	top: 399.53px;
 
-fieldset {
-  border: 1px dotted #ccc;
-  margin: 0 0 1.4615em;
-  /*padding: 1.1em;*/
+	border-radius: 65px;
 }
 
-legend {
-  font-weight: bold;
+.image_third {
+	position: absolute;
+	width: 369px;
+	height: 229.94px;
+	left: 1010px;
+	top: 683.06px;
+
+	border-radius: 65px;
 }
 
-html {
-    font-family: sans-serif;
+.shadows {
+	position: absolute;
+	width: 1440px;
+	height: 1024px;
+
+	background: conic-gradient(from 180deg at 50% 76.51%, #000000 -62.99deg, #000000 44.38deg, rgba(0, 0, 0, 0) 180.78deg, rgba(0, 0, 0, 0.046965) 180.82deg, #000000 297.01deg, #000000 404.38deg);
+	opacity: 0.8;
 }
 
+.kate {
+	position: absolute;
+	width: 223px;
+	height: 934px;
+	left: 77px;
+	top: 48px;
 
-/***********BIO****************/
-.view-content .views-view-grid td:hover {
-   background: #0091bb;
-   color: #fff !important;
+	background: url(../img/kate.png);
 }
 
-.view-content .views-view-grid td:hover a {
-    color: #fff !important;
+.effect {
+	position: absolute;
+	width: 1440px;
+	height: 1024px;
+
+	background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 55.38%), url(../img/effect.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+	filter: blur(1.5px);
 }
 
-.view-content td {
-    text-align: center;
-    vertical-align: top;
-}
+.background {
+	position: absolute;
+	width: 1440px;
+	height: 1024px;
 
-.item-characteristic {
-    font-size: 14px;
-}
-
-.item-characteristic .field-list {
-    font-weight: bold;
-}
-
-.item-characteristic p {
-    margin: 2px 0;
-}
-
-.item-characteristic .field-name-field-hero-main-picture,
-.item-characteristic .field-name-field-movies-picture,
-.item-characteristic .field-name-field-game-picture,
-.item-characteristic .field-name-field-comicshop-main-pic {
-    float: left;
-}
-
-.item-characteristic  img/*, .item-content img*/ {
-    -moz-box-shadow: 5px 5px 5px #888;
-    -webkit-box-shadow: 5px 10px 5px #888;
-    box-shadow: 5px 5px 5px #888;
-    margin-right: 15px;
+	background: url(../img/airship.png);
+	background-repeat: no-repeat;
+    background-size: cover;
 }
